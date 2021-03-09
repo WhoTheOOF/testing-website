@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spirit - Discord Bot</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="polaroid.ico" />
+</head>
+
+<body class="bg-dark text-white container-sm">
+    <!-- Root -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Spirit</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="/#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/#privacy">Privacy</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/#invite">Invite</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/#team">Team</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div id="home" class="mt-5 mb-3">
+        <h2 style="color:rgb(203, 178, 231);">
+            Welcome!
+        </h2>
+        <hr>
+        <p>
+            This is Spirit's official website! Come on look around for a bit and make yourself familiar with our Discord bot. Have
+            fun! Oh and next time you visit me please bring pizza!
+        </p>
+    </div>
+
+    <div id="about" class="mt-5 mb-3">
+        <h2 style="color:rgb(203, 178, 231);">
+            About Ami
+        </h2>
+        <hr>
+        <div class="img-container">
+            <div class="img">
+                <img src="/image/pfp.png" alt="Loading..." class="brand-img" style="">
+            </div>
+            <div class="img-content">
+                <h3>Hey!</h3>
+                <p>
+                    I am your multi-purpose Discord bot, Spirit, you can invite me to all your Discord servers in I will
+                    help you manage them with easy-to-understand commands. I have got a lot of commands to make the
+                    experience on your server a bit better.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div id="privacy" class="mt-5 mb-3">
+        <h2 style="color:rgb(203, 178, 231);">
+            Your privacy is important to us.
+        </h2>
+        <hr>
+        Spirit only stores the necessary data in order to make it work.
+        It savely stores your Discord-user-id and your tag. Those are stored because:
+        <ol>
+    </div>
+
+    <div id="invite" class="mt-5 mb-3">
+        <h2 style="color:rgb(203, 178, 231);">Invite</h2>
+        <hr>
+        <p>
+            Are you satisfacted about Spirit? Alright, add it to your server right now!
+        </p>
+        <a href="https://discord.com/api/oauth2/authorize?client_id=801742991185936384&permissions=1883237878&scope=bot" class="btn btn-outline-info"><img src="/img/discord.svg" width="18px" height="auto" target="_blank" rel="noopener noreferrer"> Click here to add me into your servers!</button></a>
+    </div>
+
+    <div id="team" class="mt-5 mb-3">
+        <h2 style="color:rgb(203, 178, 231);">
+            Team
+        </h2>
+        <hr>
+        <p>
+            The awesome people that helped making this bot:
+        <ul class="team">
+            <li><img
+                    src="https://avatars.githubusercontent.com/u/47833807?s=400&u=c478aa0429f386b06f3d57c3fd4ad953c25b7377&v=4"><a
+                    href="https://github.com/WhoTheOOF">Jadon</a></li>
+            <li><img src="https://avatars.githubusercontent.com/u/64497526?s=460&u=4">
+                <a href="https://github.com/WhoTheOOF">Jadon</a>
+            </li>
+        </ul>
+        </p>
+    </div>
+
+    <div id="support" class="mt-5 mb-3">
+        <h2 style="color:rgb(203, 178, 231);">
+            Support Server
+        </h2>
+        <hr>
+        <br class="mb-2">
+        <embed iframe src="https://discord.com/widget?id=800176902765674496&theme=dark" width="500" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></embed></iframe>
+    </div>
+
+    <div id="copyright" class="mt-5 mb-3">
+        <h2 style="color:rgb(203, 178, 231);">
+            Copyright
+        </h2>
+        <hr>
+        <p>
+            © Spirit 2021 <span id="curY">2021</span>
+        </p>
+
+    <!-- JS Imports -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous">
+    </script>
+    <script>
+        document.getElementById("curY").innerHTML = new Date().getFullYear();
+    </script>
+</body>
+
+</html>
